@@ -1,6 +1,6 @@
-- #综述 #robot_navigation #research #HOVSG
+- #综述 #robot_navigation #research #HOVSG #slam
 - 方法部分：
-	-
+	- 获得RGBD数据和点云数据
 - 实验部分：
 	- 3D 语义分割任务
 	  logseq.order-list-type:: number
