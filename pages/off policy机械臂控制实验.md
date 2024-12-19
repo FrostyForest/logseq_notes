@@ -1,0 +1,8 @@
+- #research #reinforcement_learning
+- 首先要实现能够从人身上能够采集数据。
+	- 为什么？
+		- 有些corner case有人的demo能够加快学习
+		- 人能够操控机械臂提供一种成就感和与robot连接的体验
+	- 如何实现数据采集
+		- 目前计划采用的方案是通过 [[spacemouse]]来实现6轴数据的采集
+- 其次是实现offpolicy的强化学习，计划复现的应该是[[SAC]]
