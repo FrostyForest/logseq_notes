@@ -1,0 +1,13 @@
+- #robotics #research #paper
+- 这篇文章挺有意思，总体的核心idea是基于技能的。
+	- 首先训练不同的技能模型，然后整理成文档
+	- 使用LLM作为任务规划代理，接收自然语言描述的任务（例如“把红色可乐罐放到白色盒子里”）作为输入。
+	- agent根据机器人的技能列表和任务描述，将任务分解成一系列子任务。
+		- 文章中使用了 LangChain 框架和特定的提示模板来引导 LLM 进行子任务分解。
+		- 例如，将“把红色可乐罐放到白色盒子里”分解成:
+		- "steps_1":"<VLA>: move to <red cola can>"
+		- "steps_2":"<VLA>: grasp <red cola can>"
+		- "steps_3":"<VLA>: move to <white box>"
+		- "steps_4":"<VLA>: place <red cola can>"
+	- **执行检查器 (Execution Checker):**  在执行每个子任务之前，执行检查器会验证其可执行性。例如，对于“移动到红色可乐罐”这个子任务，执行检查器会调用目标检测器 (Grounding DINO v1.5) 检查当前场景中是否存在“红色可乐罐”。如果不存在，则任务规划代理需要重新规划。
+- 核心的任务规划部分，使用的方法是：llm+[[rag]]+system prompt，执行检查器来保证任务的可执行性
