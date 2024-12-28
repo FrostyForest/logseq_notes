@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["撸羊毛"]
+ :favorites ["交易每日必做" "撸羊毛"]
 
  ;; Set flashcards interval.
  ;; Expected value:
