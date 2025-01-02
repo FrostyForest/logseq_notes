@@ -7,3 +7,7 @@
 	- ```
 	  freqtrade list-data --exchange binance --pairs  ETH/USDT:USDT --show-timerange
 	  ```
+- 启用webui来回测
+	- ```
+	  freqtrade webserver
+	  ```
