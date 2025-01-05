@@ -11,3 +11,7 @@
 	- ```
 	  freqtrade webserver
 	  ```
+- 优化
+	- ```
+	  freqtrade hyperopt --config /home/linhai/code/freqtrade/user_data/config.json --hyperopt-loss SharpeHyperOptLoss --strategy EnvelopeStrategy -e 200 --spaces buy sell
+	  ```
