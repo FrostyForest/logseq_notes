@@ -1,0 +1,12 @@
+- #research #paper
+- doi：10.48550/arXiv.2412.17288
+- 作者：首尔大学
+- 主要贡献：提出了FLARE(FEW-SHOT LANGUAGE WITH ENVIRONMENTAL ADAPTIVE REPLANNING EMBODIED AGENT)框架，通过结合多模态信息和环境自适应重规划，实现了在少量样本条件下学习执行复杂、长程、基于语言指令的具身任务。
+- 这篇文章主要重要的部分有两个
+	- Multi-Modal Planner
+		- 收集数据，包括prompt和image
+		- 输入数据，包括prompt和周围环境的图像
+		- 通过编码器进行嵌入后进行相似度比较，提取相似度最高的k个例子
+		- 通过这些例子作为prompt来引导llm进行规划
+	- Environment Adaptive Replanning
+		- 任务执行中遇到问题时，会根据已检测到的物体信息，对当前子目标进行修正。
