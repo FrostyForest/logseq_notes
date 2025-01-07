@@ -1,4 +1,4 @@
-- #research #paper
+- #research #paper #robotics
 - doi：10.48550/arXiv.2412.17288
 - 作者：首尔大学
 - 主要贡献：提出了FLARE(FEW-SHOT LANGUAGE WITH ENVIRONMENTAL ADAPTIVE REPLANNING EMBODIED AGENT)框架，通过结合多模态信息和环境自适应重规划，实现了在少量样本条件下学习执行复杂、长程、基于语言指令的具身任务。
