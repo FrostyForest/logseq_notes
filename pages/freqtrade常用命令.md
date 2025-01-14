@@ -7,6 +7,10 @@
 	- ```
 	  freqtrade list-data --exchange binance --pairs  ETH/USDT:USDT --show-timerange
 	  ```
+- 展示已下载的数据列表
+	- ```
+	  freqtrade list-data --userdir /home/linhai/code/freqtrade/user_data
+	  ```
 - 启用webui来回测
 	- ```
 	  freqtrade webserver
