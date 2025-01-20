@@ -19,3 +19,7 @@
 	- ```
 	  freqtrade hyperopt --config /home/linhai/code/freqtrade/user_data/config.json --hyperopt-loss SharpeHyperOptLoss --strategy EnvelopeStrategy -e 200 --spaces buy sell
 	  ```
+- 回测命令行
+	- ```
+	  freqtrade backtesting --strategy EnvelopeStrategy --timeframe 1h --pairs ETH/USDT:USDT --timerange 20240311- --export trades --export-filename=backtest_samplestrategy.json --timeframe-detail 1m
+	  ```
