@@ -1,4 +1,5 @@
 - #sol #crypto
+- 判断：多空比，汇率走势，借贷利率，合约费率
 - https://www.techflowpost.com/article/detail_20304.html
 - JLP是Jupiter Perp的流动性池，池子内的资产由 SOL, WBTC, ETH, USDC,USDT构成, 最新的构成比例是这样的。
 - ![](https://zy.metaera.media/assets/images/home/686.png)
