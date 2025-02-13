@@ -1,0 +1,5 @@
+- #isaaclab #bug
+- 问题：无法从国外服务器下载资产
+	- 2025-02-13 09:17:52 [2,119,546ms] [Warning] [omni.usd] Warning: in _ReportErrors at line 2890 of /builds/omniverse/usd-ci/USD/pxr/usd/usd/stage.cpp -- In </World/envs/env_0/Robot/RH_THIGH/collisions>: Could not open asset @http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.5/Isaac/IsaacLab/Robots/ANYbotics/ANYmal-C/Props/instanceable_meshes.usd@ for reference introduced by @http://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/4.5/Isaac/IsaacLab/Robots/ANYbotics/ANYmal-C/anymal_c.usd@</anymal/RH_THIGH/collisions>. (recomposing stage on stage @anon:0x5b38e6a04440:World0.usd@ <0x5b38fac457b0>)
+- 解决方法：下载资产并修改资产路径
+	- https://docs.isaacsim.omniverse.nvidia.com/latest/installation/install_faq.html#isaac-sim-setup-assets-content-pack
