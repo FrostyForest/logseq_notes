@@ -1,0 +1,3 @@
+- #isaaclab
+- 训练
+	- ./isaaclab.sh -p scripts/reinforcement_learning/skrl/train.py --task=Isaac-Ant-v0

@@ -1,0 +1,10 @@
+- #python #pip #bug
+- 当 Python 解释器尝试导入一个模块时，它会按照一定的顺序搜索一系列目录，这些目录组成了 sys.path（python -m site）。  sys.path 通常包括：
+	- 当前脚本所在的目录
+	- PYTHONPATH 环境变量指定的目录
+	- Python 标准库的目录
+	- **系统级别的 site-packages 目录**
+	- **用户级别的 site-packages 目录 (~/.local/lib/pythonX.Y/site-packages)**
+	- 以及其他特定于环境的 site-packages 目录 (例如 conda 环境的 site-packages)
+- **用户级别 site-packages 在搜索路径中：**  由于用户级别的 site-packages 目录通常包含在 Python 的 sys.path 中 (通常是默认配置)，**即使你激活了一个 conda 环境，Python 解释器在搜索包时仍然会去用户级别的 site-packages 目录查找。**
+- **潜在的 "起作用" 情况：**  如果一个包是通过 pip install --user 安装的，并且你的 conda 环境中 *没有安装同名的包*，那么当你在这个 conda 环境中尝试导入这个包时，Python 可能会在用户级别的 site-packages 目录中找到它，并成功导入。  **这时看起来就像是 --user 安装的包在 conda 环境中 "起作用" 了。**
