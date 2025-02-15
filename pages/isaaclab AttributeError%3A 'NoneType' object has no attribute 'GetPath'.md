@@ -1,5 +1,5 @@
 - #isaaclab #bug
-- 这个问题主要是由于isaaclab默认使用a w s云服务导致大陆无法访问，相关代码：
+- 这个问题主要是由于isaaclab默认使用aws云服务导致大陆无法访问，相关代码：
 	- /home/linhai/code/IsaacLab/source/isaaclab/isaaclab/utils/assets.py
 	- 修改：`NUCLEUS_ASSET_ROOT_DIR = '/home/linhai/app/isaac/isaacsim_assets/Assets/Isaac/4.5/'#carb.settings.get_settings().get("/persistent/isaac/asset_root/cloud")`
 	-
