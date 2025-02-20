@@ -18,4 +18,7 @@
 - mstr溢价率
 	- 当mstr溢价率大于3,需要高度警惕
 - usd借贷利率
+- **btc总市值/稳定币总市值**
+	- CRYPTOCAP:BTC/(CRYPTOCAP:USDT+CRYPTOCAP:USDC+CRYPTOCAP:DAI*2)
+	-
 -
