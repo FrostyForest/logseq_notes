@@ -9,6 +9,9 @@
 	- https://beets.fi/pools
 - base
 	- https://aerodrome.finance/liquidity
+- polygon
+	- https://quickswap.exchange/#/farm
 - 杂链
 	- https://pancakeswap.finance/liquidity/pools
 	- https://app.beefy.com/
+	- https://www.sushi.com/sonic/explore/pools
