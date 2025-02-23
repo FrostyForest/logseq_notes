@@ -2,6 +2,8 @@
 - sui链
 	- https://app.kriya.finance/liquidity?state=v3
 	- https://app.cetus.zone/pool/list
+- sol
+	- https://app.meteora.ag/
 - sonic
 	- https://www.shadow.so/liquidity
 	- https://eggs.finance/staking
