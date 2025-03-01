@@ -21,5 +21,8 @@
 	  ```
 - 回测命令行
 	- ```
-	  freqtrade backtesting --strategy EnvelopeStrategy --timeframe 1h --pairs ETH/USDT:USDT --timerange 20240311- --export trades --export-filename=backtest_samplestrategy.json --timeframe-detail 1m
+	  freqtrade backtesting --strategy EnvelopeStrategy --timeframe 1h --pairs ETH/USDT:USDT --timerange 20250101- --export trades --export-filename=backtest_samplestrategy.json --timeframe-detail 5m
+	  ```
+	- ```
+	  freqtrade backtesting --strategy EnvelopeStrategy --timeframe 1h --pairs ETH/USDT:USDT --timerange 20250101-  --timeframe-detail 5m
 	  ```
