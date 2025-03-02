@@ -1,7 +1,7 @@
 - #crypto #套利策略
 - sui链
 	- https://app.kriya.finance/liquidity?state=v3
-	- https://app.cetus.zone/pool/list
+	- https://app.cetus.zone/pools
 - sol
 	- https://app.meteora.ag/
 - sonic
