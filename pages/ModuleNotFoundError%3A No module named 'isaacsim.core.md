@@ -1,0 +1,2 @@
+- #isaaclab #isaacsim #bug
+- 这个bug主要是在没有启动SimulationApp的情况下进行了extension的引用
