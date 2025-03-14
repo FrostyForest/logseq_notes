@@ -1,0 +1,8 @@
+- #skrl #isaaclab #reinforcement_learning
+- 首先是train.py
+	- 创建环境
+	- 封装环境
+	- 根据环境和agent设置实例化runner
+	- 调用runner进行训练
+- runner.py
+	- [[skrl runner.py]]
