@@ -9,5 +9,5 @@
 	  ```
 	- 环境名称在环境对应文件夹的__init__.py中的id对应值中
 	- ```
-	  ./isaaclab.sh -p scripts/environments/zero_agent.py --task Isaac-Franka-Cube-Direct-v0 --num_envs 1
+	  ./isaaclab.sh -p scripts/environments/zero_agent.py --task Isaac-Franka-Cube-Direct-v0 --num_envs 1 --enable_cameras
 	  ```
