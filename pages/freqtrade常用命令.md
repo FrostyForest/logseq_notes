@@ -1,5 +1,6 @@
 - #crypto #freqtrade
 - 下载数据
+	- 下载之前的数据要加上--prepend
 	- ```
 	  freqtrade download-data --exchange binance --pairs  ETH/USDT:USDT -t 1h --timerange 20200101-
 	  ```
@@ -17,7 +18,7 @@
 	  ```
 - 优化
 	- ```
-	  freqtrade hyperopt --config /home/linhai/code/freqtrade/user_data/config.json --hyperopt-loss SharpeHyperOptLoss --strategy EnvelopeStrategy -e 200 --spaces buy sell
+	  freqtrade hyperopt --config /home/linhai/code/freqtrade/user_data/config.json --hyperopt-loss OnlyProfitHyperOptLoss --strategy TrendStrategy -e 500 --spaces buy sell --timerange 20210301- --print-all --analyze-per-epoch
 	  ```
 - 回测命令行
 	- ```
@@ -26,3 +27,8 @@
 	- ```
 	  freqtrade backtesting --strategy EnvelopeStrategy --timeframe 1h --pairs ETH/USDT:USDT --timerange 20250101-  --timeframe-detail 5m
 	  ```
+- 分析优化结果
+	- ```
+	  freqtrade hyperopt-list --profitable
+	  ```
+	-
