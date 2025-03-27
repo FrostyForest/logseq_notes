@@ -2,7 +2,7 @@
 - 下载数据
 	- 下载之前的数据要加上--prepend
 	- ```
-	  freqtrade download-data --exchange binance --pairs  ETH/USDT:USDT -t 1h --timerange 20200101-
+	  freqtrade download-data --exchange binance --pairs  ETH/USDT:USDT -t 4h --timerange 20200101-
 	  ```
 - 查看下载的数据的时间范围
 	- ```
