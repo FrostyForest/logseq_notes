@@ -69,3 +69,23 @@
 	- # Max Open Trades:
 	    max_open_trades = 30  # value loaded from strategy
 -
+- 加入slot后继续优化
+- **结果1**
+	- Best result:
+	  
+	  *   16/300:   1097 trades. 435/0/662 Wins/Draws/Losses. Avg profit   5.14%. Median profit  -3.96%. Total profit 329560.66479908 USDT (2197.07%). Avg duration 5 days, 16:52:00 min. Objective: -329560.66480
+	- # Buy hyperspace params:
+	    buy_params = {
+	        "entry_long_length": 44,
+	        "atr_length": 42,  # value loaded from strategy
+	        "entry_short_length": 21,  # value loaded from strategy
+	    }
+	- # Sell hyperspace params:
+	    sell_params = {
+	        "atr_exit_factor": 3.3,
+	        "atr_length_slot": 8,
+	        "exit_long_length": 23,  # value loaded from strategy
+	        "exit_short_length": 21,  # value loaded from strategy
+	        "sell_ratio_factor": 6.0,  # value loaded from strategy
+	    }
+	-

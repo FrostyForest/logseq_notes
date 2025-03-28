@@ -2,6 +2,9 @@
 - 下载数据
 	- 下载之前的数据要加上--prepend
 	- ```
+	  freqtrade download-data --exchange binance --pairs  AVAX/USDT:USDT -t 1h --timerange 20220901- --prepend
+	  ```
+	- ```
 	  freqtrade download-data --exchange binance --pairs  ETH/USDT:USDT -t 4h --timerange 20200101-
 	  ```
 - 查看下载的数据的时间范围
@@ -17,6 +20,9 @@
 	  freqtrade webserver
 	  ```
 - 优化
+	- ```
+	  freqtrade hyperopt --config /home/linhai/code/freqtrade/user_data/config.json --hyperopt-loss OnlyProfitHyperOptLoss --strategy Trend_Slot_Strategy -e 300 --spaces buy sell --timerange 20230101- --print-all
+	  ```
 	- ```
 	  freqtrade hyperopt --config /home/linhai/code/freqtrade/user_data/config.json --hyperopt-loss OnlyProfitHyperOptLoss --strategy TrendStrategy -e 500 --spaces buy sell --timerange 20210301- --print-all --analyze-per-epoch
 	  ```
