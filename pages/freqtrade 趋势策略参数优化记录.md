@@ -88,4 +88,68 @@
 	        "exit_short_length": 21,  # value loaded from strategy
 	        "sell_ratio_factor": 6.0,  # value loaded from strategy
 	    }
-	-
+- **结果2**
+	- 52/300:   1265 trades. 517/0/748 Wins/Draws/Losses. Avg profit   6.15%. Median profit  -3.77%. Total profit 466197.10434446 USDT (3107.98%). Avg duration 5 days, 19:01:00 min. Objective: -466197.10434
+	- # Buy hyperspace params:
+	    buy_params = {
+	        "entry_long_length": 45,
+	        "atr_length": 42,  # value loaded from strategy
+	        "entry_short_length": 21,  # value loaded from strategy
+	    }
+	- # Sell hyperspace params:
+	    sell_params = {
+	        "atr_exit_factor": 3.9,
+	        "atr_length_slot": 16,
+	        "exit_long_length": 23,  # value loaded from strategy
+	        "exit_short_length": 21,  # value loaded from strategy
+	        "sell_ratio_factor": 8.0,  # value loaded from strategy
+	    }
+- **结果3**
+	- 261/300:   1537 trades. 612/0/925 Wins/Draws/Losses. Avg profit   5.67%. Median profit  -4.35%. Total profit 372734.89577205 USDT (2484.90%). Avg duration 5 days, 18:05:00 min. Objective: -372734.89577
+	- # Buy hyperspace params:
+	    buy_params = {
+	        "atr_length": 42,  # value loaded from strategy
+	        "entry_long_length": 43,  # value loaded from strategy
+	        "entry_short_length": 21,  # value loaded from strategy
+	    }
+	- # Sell hyperspace params:
+	    sell_params = {
+	        "atr_exit_factor": 4.2,
+	        "atr_length_slot": 18,
+	        "exit_long_length": 23,  # value loaded from strategy
+	        "exit_short_length": 21,  # value loaded from strategy
+	        "sell_ratio_factor": 7.5,  # value loaded from strategy
+	    }
+- **结果4**
+	- 61/300:   1524 trades. 615/0/909 Wins/Draws/Losses. Avg profit   5.81%. Median profit  -4.10%. Total profit 419068.00776221 USDT (2793.79%). Avg duration 5 days, 18:24:00 min. Objective: -419068.00776
+	- # Buy hyperspace params:
+	    buy_params = {
+	        "entry_long_length": 44,
+	        "atr_length": 42,  # value loaded from strategy
+	        "entry_short_length": 21,  # value loaded from strategy
+	    }
+	- # Sell hyperspace params:
+	    sell_params = {
+	        "atr_exit_factor": 3.9,
+	        "sell_ratio_factor": 8.8,
+	        "atr_length_slot": 16,  # value loaded from strategy
+	        "exit_long_length": 23,  # value loaded from strategy
+	        "exit_short_length": 21,  # value loaded from strategy
+	    }
+- **结果5**
+	- 80/300:   1670 trades. 671/0/999 Wins/Draws/Losses. Avg profit   5.14%. Median profit  -4.02%. Total profit 421579.14075422 USDT (2810.53%). Avg duration 4 days, 21:37:00 min. Objective: -421579.14075
+	- # Buy hyperspace params:
+	    buy_params = {
+	        "atr_length": 42,  # value loaded from strategy
+	        "entry_long_length": 44,  # value loaded from strategy
+	        "entry_short_length": 21,  # value loaded from strategy
+	    }
+	- # Sell hyperspace params:
+	    sell_params = {
+	        "atr_length_slot": 17,
+	        "exit_short_length": 16,
+	        "atr_exit_factor": 3.9,  # value loaded from strategy
+	        "exit_long_length": 23,  # value loaded from strategy
+	        "sell_ratio_factor": 8.88,  # value loaded from strategy
+	    }
+-
