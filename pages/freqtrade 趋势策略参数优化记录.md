@@ -152,4 +152,44 @@
 	        "exit_long_length": 23,  # value loaded from strategy
 	        "sell_ratio_factor": 8.88,  # value loaded from strategy
 	    }
--
+- **结果6**
+	- 116/300:   2716 trades. 1099/0/1617 Wins/Draws/Losses. Avg profit   5.64%. Median profit  -4.96%. Total profit 63908.65521180 USDT (2556.35%). Avg duration 5 days, 16:01:00 min. Objective: -63908.65521
+	- # Buy hyperspace params:
+	    buy_params = {
+	        "atr_length": 30,
+	        "entry_long_length": 44,  # value loaded from strategy
+	        "entry_short_length": 21,  # value loaded from strategy
+	    }
+	- # Sell hyperspace params:
+	    sell_params = {
+	        "atr_exit_factor": 4.5,
+	        "sell_ratio_factor": 10.7,
+	        "atr_length_slot": 16,  # value loaded from strategy
+	        "exit_long_length": 23,  # value loaded from strategy
+	        "exit_short_length": 21,  # value loaded from strategy
+	    }
+	- # Stoploss:
+	    stoploss = -2.0  # value loaded from strategy
+	- # Trailing stop:
+	    trailing_stop = False  # value loaded from strategy
+	    trailing_stop_positive = None  # value loaded from strategy
+	    trailing_stop_positive_offset = 0.0  # value loaded from strategy
+	    trailing_only_offset_is_reached = False  # value loaded from strategy
+	- # Max Open Trades:
+	    max_open_trades = 30  # value loaded from strategy
+- **结果7**
+	- *    5/300:   2731 trades. 1105/0/1626 Wins/Draws/Losses. Avg profit   5.42%. Median profit  -4.96%. Total profit 60947.67924095 USDT (2437.91%). Avg duration 5 days, 15:30:00 min. Objective: -60947.67924
+	- # Buy hyperspace params:
+	    buy_params = {
+	        "atr_length": 19,
+	        "entry_long_length": 44,  # value loaded from strategy
+	        "entry_short_length": 21,  # value loaded from strategy
+	    }
+	- # Sell hyperspace params:
+	    sell_params = {
+	        "atr_length_slot": 15,
+	        "atr_exit_factor": 4.5,  # value loaded from strategy
+	        "exit_long_length": 23,  # value loaded from strategy
+	        "exit_short_length": 21,  # value loaded from strategy
+	        "sell_ratio_factor": 10.5,  # value loaded from strategy
+	    }
