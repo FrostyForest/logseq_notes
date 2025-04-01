@@ -193,3 +193,21 @@
 	        "exit_short_length": 21,  # value loaded from strategy
 	        "sell_ratio_factor": 10.5,  # value loaded from strategy
 	    }
+- **对策略开仓修正后的优化结果**
+	- **第一次优化**
+		- 485/500:   1400 trades. 591/0/809 Wins/Draws/Losses. Avg profit   6.53%. Median profit  -3.41%. Total profit 284534.71354696 USDT (11381.39%). Avg duration 5 days, 8:53:00 min. Objective: -284534.71355
+		- # Buy hyperspace params:
+		    buy_params = {
+		        "atr_length": 16,
+		        "entry_long_length": 34,
+		        "entry_short_length": 31,
+		        "trend_entry_weight": 1,  # value loaded from strategy
+		    }
+		- # Sell hyperspace params:
+		    sell_params = {
+		        "atr_exit_factor": 4.7,
+		        "exit_short_length": 16,
+		        "sell_ratio_factor": 11.0,
+		        "atr_length_slot": 15,  # value loaded from strategy
+		        "exit_long_length": 24,  # value loaded from strategy
+		    }
