@@ -193,6 +193,40 @@
 	        "exit_short_length": 21,  # value loaded from strategy
 	        "sell_ratio_factor": 10.5,  # value loaded from strategy
 	    }
+- **结果8** 该结果为20221001对超过20个pair进行优化得到
+	- 210/276:   2768 trades. 1135/0/1633 Wins/Draws/Losses. Avg profit   6.13%. Median profit  -4.40%. Total profit 554789.47696396 USDT (5547.89%). Avg duration 5 days, 7:32:00 min. Objective: -554789.47696
+	- # Buy hyperspace params:
+	    buy_params = {
+	        "atr_length": 16,
+	        "entry_long_length": 46,
+	        "entry_short_length": 26,
+	        "trend_entry_weight": 1.2,  # value loaded from strategy
+	    }
+	- # Sell hyperspace params:
+	    sell_params = {
+	        "atr_exit_factor": 4.7,
+	        "exit_long_length": 27,
+	        "exit_short_length": 16,
+	        "sell_ratio_factor": 9.7,
+	        "atr_length_slot": 15,  # value loaded from strategy
+	    }
+- **结果9**
+	- 61/500:   3107 trades. 1249/0/1858 Wins/Draws/Losses. Avg profit   4.84%. Median profit  -4.62%. Total profit 461084.91379728 USDT (4610.85%). Avg duration 4 days, 19:03:00 min. Objective: -461084.91380
+	- # Buy hyperspace params:
+	    buy_params = {
+	        "atr_length": 15,
+	        "entry_long_length": 45,  # value loaded from strategy
+	        "entry_short_length": 21,  # value loaded from strategy
+	        "trend_entry_weight": 1.2,  # value loaded from strategy
+	    }
+	- # Sell hyperspace params:
+	    sell_params = {
+	        "atr_length_slot": 12,
+	        "exit_short_length": 16,
+	        "atr_exit_factor": 4.5,  # value loaded from strategy
+	        "exit_long_length": 23,  # value loaded from strategy
+	        "sell_ratio_factor": 10.5,  # value loaded from strategy
+	    }
 - **对策略开仓修正后的优化结果**
 	- **第一次优化**
 		- 485/500:   1400 trades. 591/0/809 Wins/Draws/Losses. Avg profit   6.53%. Median profit  -3.41%. Total profit 284534.71354696 USDT (11381.39%). Avg duration 5 days, 8:53:00 min. Objective: -284534.71355
