@@ -2,6 +2,9 @@
 - 下载数据
 	- 下载之前的数据要加上--prepend
 	- ```
+	  freqtrade download-data --exchange bybit --pairs "BTC/USDT:USDT" "XRP/USDT:USDT" "DOGE/USDT:USDT" "SOL/USDT:USDT" "ADA/USDT:USDT" "AVAX/USDT:USDT" "DOT/USDT:USDT" "XLM/USDT:USDT" "HBAR/USDT:USDT" "FIL/USDT:USDT" "MKR/USDT:USDT" "CAKE/USDT:USDT" "VET/USDT:USDT" "ALGO/USDT:USDT" "SUI/USDT:USDT" "WLD/USDT:USDT" "GRT/USDT:USDT" "STX/USDT:USDT" "INJ/USDT:USDT" "CRV/USDT:USDT" "SHIB1000/USDT:USDT" "RSR/USDT:USDT" -t 1h --timerange 20220901- --prepend
+	  ```
+	- ```
 	  freqtrade download-data --exchange binance --pairs  AVAX/USDT:USDT -t 1h --timerange 20220901- --prepend
 	  ```
 	- ```
