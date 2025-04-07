@@ -24,7 +24,7 @@
 	  ```
 - 优化
 	- ```
-	  freqtrade hyperopt --config /home/linhai/code/freqtrade/user_data/config.json --hyperopt-loss OnlyProfitHyperOptLoss --strategy Trend_Slot_Strategy -e 300 --spaces buy sell --timerange 20230101- --print-all
+	  freqtrade hyperopt --config /home/linhai/code/freqtrade/user_data/config.json --hyperopt-loss ProfitDrawDownHyperOptLoss --strategy Trend_Slot_Strategy -e 300 --spaces buy sell --timerange 20221001- --print-all
 	  ```
 	- ```
 	  freqtrade hyperopt --config /home/linhai/code/freqtrade/user_data/config.json --hyperopt-loss OnlyProfitHyperOptLoss --strategy TrendStrategy -e 500 --spaces buy sell --timerange 20210301- --print-all --analyze-per-epoch
@@ -40,4 +40,5 @@
 	- ```
 	  freqtrade hyperopt-list --profitable
 	  ```
-	-
+- dryrun
+	- freqtrade trade --strategy Trend_Slot_Strategy_test

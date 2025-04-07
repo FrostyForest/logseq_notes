@@ -227,6 +227,25 @@
 	        "exit_long_length": 23,  # value loaded from strategy
 	        "sell_ratio_factor": 10.5,  # value loaded from strategy
 	    }
+- **结果10**
+	- Best result:
+	  
+	     109/276:   3644 trades. 1472/0/2172 Wins/Draws/Losses. Avg profit   4.26%. Median profit  -3.80%. Total profit 653545.83023738 USDT (6535.46%). Avg duration 3 days, 20:39:00 min. Objective: -653545.83024
+	- # Buy hyperspace params:
+	    buy_params = {
+	        "entry_short_length": 19,
+	        "atr_length": 15,  # value loaded from strategy
+	        "entry_long_length": 45,  # value loaded from strategy
+	        "trend_entry_weight": 1.2888,  # value loaded from strategy
+	    }
+	- # Sell hyperspace params:
+	    sell_params = {
+	        "atr_exit_factor": 4.8,
+	        "exit_short_length": 12,
+	        "atr_length_slot": 12,  # value loaded from strategy
+	        "exit_long_length": 21,  # value loaded from strategy
+	        "sell_ratio_factor": 10,  # value loaded from strategy
+	    }
 - **对策略开仓修正后的优化结果**
 	- **第一次优化**
 		- 485/500:   1400 trades. 591/0/809 Wins/Draws/Losses. Avg profit   6.53%. Median profit  -3.41%. Total profit 284534.71354696 USDT (11381.39%). Avg duration 5 days, 8:53:00 min. Objective: -284534.71355
@@ -245,3 +264,24 @@
 		        "atr_length_slot": 15,  # value loaded from strategy
 		        "exit_long_length": 24,  # value loaded from strategy
 		    }
+- **顺势加仓版本优化结果**
+	- 第一次优化
+		- 193/228:   3566 trades. 1316/0/2250 Wins/Draws/Losses. Avg profit   2.41%. Median profit  -4.94%. Total profit 1059861.49984011 USDT (10598.61%). Avg duration 3 days, 21:20:00 min. Objective: -930702.65647
+		- # Buy hyperspace params:
+		    buy_params = {
+		        "breakout_adjust_downlimit": 1.6,
+		        "breakout_adjust_uplimit": 3.0,
+		        "atr_length": 15,  # value loaded from strategy
+		        "entry_long_length": 45,  # value loaded from strategy
+		        "entry_short_length": 19,  # value loaded from strategy
+		        "trend_entry_weight": 1.25,  # value loaded from strategy
+		    }
+		- # Sell hyperspace params:
+		    sell_params = {
+		        "sell_ratio_factor": 13.0,
+		        "atr_exit_factor": 4.55,  # value loaded from strategy
+		        "atr_length_slot": 12,  # value loaded from strategy
+		        "exit_long_length": 21,  # value loaded from strategy
+		        "exit_short_length": 12,  # value loaded from strategy
+		    }
+	-
