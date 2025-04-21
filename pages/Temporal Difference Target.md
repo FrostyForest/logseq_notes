@@ -1,0 +1,3 @@
+- #reinforcement_learning #value_based
+- TD 目标是在强化学习（特别是 Q-learning 和 DQN）中，用来指导 Q 网络学习的“正确答案”或“目标值”。它基于贝尔曼方程的思想，表示了对状态-动作对 (s, a) 价值的一个更好的估计。
+-

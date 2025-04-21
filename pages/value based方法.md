@@ -1,4 +1,4 @@
-- #reinforcement_learning #dqn
+- #reinforcement_learning #dqn #value_based
 - 存在这样一个轨迹:
 	- $$S_t \xrightarrow{A_t} R_{t+1}, S_{t+1} \xrightarrow{A_{t+1}} R_{t+2}, S_{t+2} \xrightarrow{A_{t+2}} R_{t+3}, \dots$$
 - 某一个时刻的贴现回报为$$G_t$$
