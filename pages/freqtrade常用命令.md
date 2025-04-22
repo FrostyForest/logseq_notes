@@ -45,4 +45,5 @@
 	  ```
 - dryrun
 	- ``freqtrade trade --strategy Trend_Slot_Strategy_test``
+		- freqtrade trade --strategy Trend_Slot_Strategy_test
 	-
