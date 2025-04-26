@@ -34,7 +34,7 @@
 	  freqtrade backtesting --strategy EnvelopeStrategy --timeframe 1h --pairs ETH/USDT:USDT --timerange 20250101- --export trades --export-filename=backtest_samplestrategy.json --timeframe-detail 5m
 	  ```
 	- ```
-	  freqtrade backtesting --strategy Trend_Slot_Strategy_test --timerange=20221001-20250413 --enable-protections
+	  freqtrade backtesting --strategy Trend_Slot_Strategy_rsi_test --timerange=20221001-20250413 --enable-protections
 	  ```
 - 分析优化结果
 	- ```
