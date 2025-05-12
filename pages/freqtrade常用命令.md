@@ -24,6 +24,10 @@
 	  ```
 - 优化
 	- ```
+	  保留一个处理器
+	  freqtrade hyperopt --config /home/linhai/code/freqtrade/user_data/config.json --hyperopt-loss SuperHyperOptLoss --strategy Trend_Slot_Strategy_rsi_test -e 300 --spaces buy --timerange 20221001- --print-all -j -2
+	  ```
+	- ```
 	  freqtrade hyperopt --config /home/linhai/code/freqtrade/user_data/config.json --hyperopt-loss ProfitDrawDownHyperOptLoss --strategy Trend_Slot_Strategy -e 300 --spaces buy sell --timerange 20221001- --print-all
 	  ```
 	- ```
