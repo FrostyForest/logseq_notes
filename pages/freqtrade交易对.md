@@ -480,3 +480,30 @@
 	  │          TOTAL │   4367 │          4.0 │    2151762.643 │     21517.63 │         3 days, │     1688     0 │
 	  │                │        │              │                │              │        12:37:00 │     2679  38.7 │
 	  └────────────────┴────────┴──────────────┴────────────────┴──────────────┴─────────────────┴────────────────┘
+- ## 20250516 筛选
+	- ```
+	          {
+	              "method": "VolumePairList",
+	              "number_assets": 200,
+	              "sort_key": "quoteVolume",
+	              "min_value": 0,
+	              "refresh_period": 36000,
+	              "lookback_timeframe": "4h",
+	              "lookback_period": 42
+	          },
+	          {"method": "AgeFilter", "min_days_listed": 180,"max_days_listed": 540}
+	  ```
+	- ### static pair list
+		- "MOODENG/USDT:USDT", "WIF/USDT:USDT", "PNUT/USDT:USDT", "VIRTUAL/USDT:USDT", "ENA/USDT:USDT", "ONDO/USDT:USDT", "POPCAT/USDT:USDT", "GOAT/USDT:USDT", "1000NEIROCTO/USDT:USDT", "ETHFI/USDT:USDT", "DEGEN/USDT:USDT", "TAO/USDT:USDT", "OM/USDT:USDT", "NEIROETH/USDT:USDT", "JUP/USDT:USDT", "BRETT/USDT:USDT", "BOME/USDT:USDT", "MEW/USDT:USDT", "GRASS/USDT:USDT", "HIPPO/USDT:USDT", "ZRO/USDT:USDT", "RENDER/USDT:USDT", "DOGS/USDT:USDT", "EIGEN/USDT:USDT", "NOT/USDT:USDT", "ACT/USDT:USDT", "ATH/USDT:USDT", "POL/USDT:USDT", "XAI/USDT:USDT", "1000000MOG/USDT:USDT", "DEEP/USDT:USDT", "STRK/USDT:USDT", "1000TURBO/USDT:USDT", "FWOG/USDT:USDT", "1000CAT/USDT:USDT", "SUNDOG/USDT:USDT", "CATI/USDT:USDT", "SPX/USDT:USDT", "W/USDT:USDT", "1000X/USDT:USDT", "UXLINK/USDT:USDT", "PONKE/USDT:USDT", "TAI/USDT:USDT", "MOCA/USDT:USDT", "1000000BABYDOGE/USDT:USDT", "JTO/USDT:USDT", "REZ/USDT:USDT", "IO/USDT:USDT", "ZKJ/USDT:USDT", "MAVIA/USDT:USDT", "ZK/USDT:USDT", "PUFFER/USDT:USDT", "ZETA/USDT:USDT", "MYRO/USDT:USDT", "RAYDIUM/USDT:USDT"
+	- ### 下载数据格式
+		- MOODENG/USDT:USDT WIF/USDT:USDT PNUT/USDT:USDT VIRTUAL/USDT:USDT ENA/USDT:USDT ONDO/USDT:USDT POPCAT/USDT:USDT GOAT/USDT:USDT 1000NEIROCTO/USDT:USDT ETHFI/USDT:USDT DEGEN/USDT:USDT TAO/USDT:USDT OM/USDT:USDT NEIROETH/USDT:USDT JUP/USDT:USDT BRETT/USDT:USDT BOME/USDT:USDT MEW/USDT:USDT GRASS/USDT:USDT HIPPO/USDT:USDT ZRO/USDT:USDT RENDER/USDT:USDT DOGS/USDT:USDT EIGEN/USDT:USDT NOT/USDT:USDT ACT/USDT:USDT ATH/USDT:USDT POL/USDT:USDT XAI/USDT:USDT 1000000MOG/USDT:USDT DEEP/USDT:USDT STRK/USDT:USDT 1000TURBO/USDT:USDT FWOG/USDT:USDT 1000CAT/USDT:USDT SUNDOG/USDT:USDT CATI/USDT:USDT SPX/USDT:USDT W/USDT:USDT 1000X/USDT:USDT UXLINK/USDT:USDT PONKE/USDT:USDT TAI/USDT:USDT MOCA/USDT:USDT 1000000BABYDOGE/USDT:USDT JTO/USDT:USDT REZ/USDT:USDT IO/USDT:USDT ZKJ/USDT:USDT MAVIA/USDT:USDT ZK/USDT:USDT PUFFER/USDT:USDT ZETA/USDT:USDT RAYDIUM/USDT:USDT
+	- ### 回测前列pair
+		- │         MOODENG/USDT:USDT │     40 │        18.95 │       13846.765 │       138.47 │  3 days, 3:30:00 │   19     0    21  47.5 │
+		  │           ETHFI/USDT:USDT │     69 │         8.84 │        9685.208 │        96.85 │ 3 days, 10:59:00 │   31     0    38  44.9 │
+		  │         VIRTUAL/USDT:USDT │     35 │        21.28 │        8996.825 │        89.97 │ 3 days, 14:33:00 │   14     0    21  40.0 │
+		  │            GOAT/USDT:USDT │     34 │        18.17 │        8454.010 │        84.54 │ 3 days, 11:49:00 │   18     0    16  52.9 │
+		  │           1000X/USDT:USDT │     29 │        71.97 │        8224.949 │        82.25 │ 3 days, 19:17:00 │   14     0    15  48.3 │
+		  │          UXLINK/USDT:USDT │     49 │        30.69 │        7498.407 │        74.98 │ 3 days, 11:11:00 │   22     0    27  44.9 │
+		  │    1000NEIROCTO/USDT:USDT │     45 │         6.86 │        7491.593 │        74.92 │  3 days, 8:17:00 │   20     0    25  44.4 │
+		  │       1000TURBO/USDT:USDT │     79 │        10.23 │        7070.928 │        70.71 │ 3 days, 12:30:00 │   35     0    44  44.3 │
+-
