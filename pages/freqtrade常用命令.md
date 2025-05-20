@@ -42,6 +42,9 @@
 	  ```
 - 分析优化结果
 	- ```
+	  freqtrade hyperopt-show -n 1
+	  ```
+	- ```
 	  freqtrade hyperopt-show --best -n -1
 	  ```
 	- ```
