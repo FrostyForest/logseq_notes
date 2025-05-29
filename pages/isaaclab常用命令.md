@@ -1,6 +1,10 @@
 - #isaaclab
 - 训练
-	- ./isaaclab.sh -p scripts/reinforcement_learning/skrl/train.py --task=Isaac-Ant-v0
+	- ```
+	  ./isaaclab.sh -p scripts/reinforcement_learning/skrl/train.py --task=Isaac-Ant-v0
+	  ./isaaclab.sh -p /home/linhai/code/IsaacLab/scripts/reinforcement_learning/rl_games/train.py --task=Isaac-my_Lift-Cube-Franka-v0
+	  ./isaaclab.sh -p /home/linhai/code/IsaacLab/scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-my_Lift-Cube-Franka-v0 --num_envs 64 --enable_cameras
+	  ```
 - 运行预训练好的模型
 	- ./isaaclab.sh -p scripts/reinforcement_learning/skrl/play.py --task Isaac-Franka-Cabinet-Direct-v0 --num_envs 1 --use_pretrained_checkpoint
 - 测试环境
