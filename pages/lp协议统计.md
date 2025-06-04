@@ -17,3 +17,4 @@
 	- https://pancakeswap.finance/liquidity/pools
 	- https://app.beefy.com/
 	- https://www.sushi.com/sonic/explore/pools
+	- https://qb.finance/yield
