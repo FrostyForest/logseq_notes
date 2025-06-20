@@ -1,5 +1,6 @@
 - #isaacsim
 - # core api 文档
+  collapsed:: true
 	- https://docs.isaacsim.omniverse.nvidia.com/latest/core_api_tutorials/index.html
 	- ## 场景设置
 		- 好的，这是对 **"Scene Setup Snippets"** (场景设置代码片段) 文档的完整中文翻译和解析。
@@ -436,3 +437,16 @@
 			  # 根据需要更改路径
 			  omni.usd.get_context().save_as_stage("/path/to/asset/saved.usd", None)
 			  `````
+- ## slam教程
+  collapsed:: true
+	- https://nvidia-isaac-ros.github.io/repositories_and_packages/isaac_ros_visual_slam/isaac_ros_visual_slam/index.html#quickstart
+	- nvidia-isaac-ros.github.io/concepts/visual_slam/cuvslam/tutorial_isaac_sim.html
+	-
+	-
+- ## ros2教程
+  collapsed:: true
+	- ### 发布相机数据
+		- [[isaacsim发布相机数据]]
+- ## isaacsim约定
+	- [[isaacsim约定]]
+	-
