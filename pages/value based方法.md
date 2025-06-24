@@ -522,6 +522,7 @@
 			  
 			  如果我们在更新目标策略时也使用 ε-greedy，那么整个算法就变成了 **SARSA**（或者说类似 SARSA 的 On-Policy 算法），它学习的就是它所遵循的那个 ε-greedy 策略的价值，而不是最优策略的价值。
 		- #### 问题是sarsa和qlearning最终求得的q都是相同的吧？
+		  collapsed:: true
 			- 不，**Sarsa 和 Q-learning 最终求得的 Q 值通常是不同的**，除非在特定的条件下。
 			  
 			  主要原因在于它们学习的目标不同：
