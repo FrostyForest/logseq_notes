@@ -25,5 +25,5 @@
 	  ```
 - ## 遥控
 	- ```
-	  ./isaaclab.sh -p scripts/environments/teleoperation/teleop_se3_agent.py --task Isaac-my_Lift-Cube-Franka-IK-Rel-v0 --num_envs 1 --teleop_device keyboard --enable_cameras 
+	  ./isaaclab.sh -p scripts/environments/teleoperation/teleop_se3_agent.py --task Isaac-my_Lift-Cube-Franka-IK-Rel-v1 --num_envs 1 --teleop_device keyboard --enable_cameras 
 	  ```

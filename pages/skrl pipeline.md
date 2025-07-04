@@ -1,8 +1,8 @@
 - #reinforcement_learning #skrl
 - ## 整体流程
-  collapsed:: true
 	- ### 建立模型
 	- ### 封装环境
+	  collapsed:: true
 		- 好的，我们来详细解析 `load_isaaclab_env` 和 `wrap_env` 这两个函数。它们是 `skrl` 库中用于与外部仿真环境（特别是 NVIDIA Isaac Lab）进行集成和标准化的关键组件。
 		- #### 1. `load_isaaclab_env` 函数
 			- 这个函数的作用是**加载并初始化一个 NVIDIA Isaac Lab 环境**。Isaac Lab 是一个功能强大的机器人仿真平台，但它的启动和配置过程比较复杂，通常需要通过命令行参数来控制。`load_isaaclab_env` 的目标就是将这个复杂的过程封装起来，让用户可以像加载一个普通的 `gymnasium` 环境一样方便地使用它。
@@ -300,6 +300,7 @@
 		  
 		  这个多层次、模块化的设计，从**应用层 (User Code)** -> **框架适配层 (Wrapper)** -> **环境实现层 (Manager-Based Env)**，最终实现了极高的灵活性和可维护性，是现代复杂 RL 系统设计的典范。
 - ## 完整pipeline
+  collapsed:: true
 	- 好的，这是一个绝佳的机会来将我们讨论过的所有碎片化的知识点，通过 `AppLauncher.py` 这个“源头活水”，串联成一个完整、连贯、自上而下的强化学习系统pipeline。
 	  
 	  `AppLauncher` 是整个 Isaac Lab/`skrl` 流程的**真正起点**。它负责创建那个我们之前讨论过的 `simulation_app`，也就是整个仿真世界的基石。
