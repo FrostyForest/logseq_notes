@@ -5,6 +5,7 @@
 	  ./isaaclab.sh -p /home/linhai/code/IsaacLab/scripts/reinforcement_learning/rl_games/train.py --task=Isaac-my_Lift-Cube-Franka-v0
 	  ./isaaclab.sh -p /home/linhai/code/IsaacLab/scripts/reinforcement_learning/rsl_rl/train.py --task=Isaac-my_Lift-Cube-Franka-v0 --num_envs 64 --enable_cameras
 	  ./isaaclab.sh -p /home/linhai/code/IsaacLab/my_code/train/torch_cube_franka_ppo.py --enable_cameras
+	  ./isaaclab.sh -p scripts/reinforcement_learning/skrl/train.py --task=Isaac-my_Lift-Cube-Franka-v1 --num_envs 64
 	  ```
 - ## 运行预训练好的模型
 	- ```
@@ -27,3 +28,6 @@
 	- ```
 	  ./isaaclab.sh -p scripts/environments/teleoperation/teleop_se3_agent.py --task Isaac-my_Lift-Cube-Franka-IK-Rel-v1 --num_envs 1 --teleop_device keyboard --enable_cameras 
 	  ```
+- ## 任务名
+	- Isaac-my_Lift-Cube-Franka-IK-Rel-v1
+		- ac-my_Lift-Cube-Franka-IK-Rel-v1
