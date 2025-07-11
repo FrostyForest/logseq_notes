@@ -1,0 +1,6 @@
+- #isaaclab #imitation_learning
+- ## 基本要素
+	- 教师模型
+	- 学生模型
+	- 损失函数
+-

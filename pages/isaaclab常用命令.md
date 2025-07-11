@@ -30,4 +30,7 @@
 	  ```
 - ## 任务名
 	- Isaac-my_Lift-Cube-Franka-IK-Rel-v1
-		- ac-my_Lift-Cube-Franka-IK-Rel-v1
+- ## 测试蒸馏学习
+	- ```
+	  ./isaaclab.sh -p /home/linhai/code/IsaacLab/scripts/imitation_learning/distilling/distilling_learning.py --task Isaac-my_Lift-Cube-Franka-v1 --num_envs 2 --enable_cameras --headless
+	  ```
