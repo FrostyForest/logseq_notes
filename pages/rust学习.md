@@ -1,0 +1,7 @@
+- #rust #就业
+- ## 指南
+	- https://bgm.tv/group/topic/400373
+- ## 教程
+	- https://doc.rust-lang.org/book/
+	- https://kaisery.github.io/trpl-zh-cn/
+	- https://rustlings.rust-lang.org/

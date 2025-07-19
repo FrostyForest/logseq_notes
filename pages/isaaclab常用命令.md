@@ -35,3 +35,7 @@
 	- ```
 	  ./isaaclab.sh -p /home/linhai/code/IsaacLab/scripts/imitation_learning/distilling/distilling_learning.py --task Isaac-my_Lift-Cube-Franka-v1 --num_envs 2 --enable_cameras --headless
 	  ```
+- ## 清除显存泄漏
+	- ```
+	  pkill "Omniverse Hub"
+	  ```
